@@ -1,0 +1,18 @@
+ssh tony@stapp01
+
+sudo su-
+
+ls -ltr /tmp/xfusioncorp.sh (List the file existing file permission)
+
+chmod o+rx /tmp/xfusioncorp.sh
+ (Please note that in case of bash script bash is the interpreter that is
+ actually going to execute the script and the interpreter needs to read the
+ script so even if you have given it only executable permission the 
+ interpreter i.e bash will not be able to execute it so you had to give it 
+ read permission as well along with execute permission.)
+
+cat /tmp/xfusioncorp.sh
+
+ls -ltr /tmp/xfusioncorp.sh
+
+sh /tmp/xfusioncorp.sh
