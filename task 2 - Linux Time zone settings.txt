@@ -1,0 +1,15 @@
+ At first login on App server   &  Switch to  root user 
+1)ssh tony@stapp01
+2)sudo su -
+
+Run Below command to  check existing Time Zone set for server
+3)timedatectl
+
+Help give you syntax to set the time zone & others
+4)timedatectl -h
+
+Run Below command to set the time zone  & verify it
+5)sudo timedatectl set-timezone Pacific/Tarawa
+6)sudo timedatectl
+
+do it for app 2 too
