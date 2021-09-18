@@ -1,0 +1,16 @@
+Create a linux user with non-interactive shell
+
+1. At first login  to respective mentioned server in task.
+ssh steve@stapp02
+sudo su-
+
+2.1st check user is existed on the server  by below command   
+id ravi
+
+3. If user not found the then you create a user with non-interactive shell
+adduser ravi -s/sbin/nologin
+
+4.Validate user is created successfully as per the task request.
+id ravi
+
+cat /etc/passwd|grep ravi    
